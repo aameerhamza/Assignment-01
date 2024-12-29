@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+
+<body >
+    <form>
+        <fieldset style="background-color: wheat;">
+            <h1 align="center">
+                Admission Form
+                <hr>
+            </h1>
+            <p>
+                Name: <input type="text" maxlength="12" placeholder="Enter your first Name">
+                <input type="text" placeholder="Last Name" name="username" id=""> <br> <br>
+                Father Name: <input type="text"> <br> <br>
+                Contact: <input type="number"> <br><br>
+                Date of Birth: <input type="date"> <br> <br>
+                Email: <input type="email" required placeholder="Enter your Email"> <br> <br>
+                Password: <input type="password" placeholder="Enter your Password"> <br> <br>
+                Gender <input type="radio" value="male" id="male" name="Gender"><label for="male" Name="name">
+                    Male</label>
+                <input type="radio" value="Female" id="Female" name="Gender"><label for="Female">Female</label> <br>
+                <br>
+                Subject <input type="checkbox" value="phy" id="phy"> <label for="Phy">Physics</label>
+                 <input type="checkbox" value="che" id="che"> <label for="che">Chemistry</label>
+                 <input type="checkbox" value="math" id="math"> <label for="math">Math</label> <br> <br>
+                Campus: <select name="campuses" >
+                        <option value="Karachi">Karachi</option>
+                        <option value="Lahore">Lahore</option>
+                        <option value="DIKhan">D.I.Khan</option>
+                        <option value="Peshawar">Peshawar</option>
+                    </select> <br> <br>
+                    Select Image:
+                    <input type="file"> <br><br>
+                Address : <br>
+                <textarea name="Address"></textarea> <br> <br>
+                <input type="submit">
+            </p>
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
